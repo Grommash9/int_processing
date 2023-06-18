@@ -5,4 +5,4 @@ matrix:
     - python: 3.11
 install:
   - pip install -r requirements.txt
-script: compute_stats_test.py
+script: python -m unittest compute_stats_test.py
